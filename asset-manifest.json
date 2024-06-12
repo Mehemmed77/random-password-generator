@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.d221e113.css",
+    "main.js": "/my-app/static/js/main.c1009a5b.js",
+    "static/js/453.fd58a4bb.chunk.js": "/my-app/static/js/453.fd58a4bb.chunk.js",
+    "static/media/JetBrainsMono-Italic-VariableFont_wght.ttf": "/my-app/static/media/JetBrainsMono-Italic-VariableFont_wght.41ea7ce5a94285e86a0b.ttf",
+    "static/media/JetBrainsMono-VariableFont_wght.ttf": "/my-app/static/media/JetBrainsMono-VariableFont_wght.ebc33bd57e78956d75ad.ttf",
+    "static/media/JetBrainsMono-BoldItalic.ttf": "/my-app/static/media/JetBrainsMono-BoldItalic.0b8164d760caecf84507.ttf",
+    "static/media/JetBrainsMono-Bold.ttf": "/my-app/static/media/JetBrainsMono-Bold.a0394baa305e2ce71971.ttf",
+    "static/media/icon-copy.svg": "/my-app/static/media/icon-copy.c00fcf20217a486689713679f8ec9e05.svg",
+    "index.html": "/my-app/index.html",
+    "static/media/icon-check.svg": "/my-app/static/media/icon-check.c0e2bb9365c6d9e8bbe438893c42c289.svg",
+    "main.d221e113.css.map": "/my-app/static/css/main.d221e113.css.map",
+    "main.c1009a5b.js.map": "/my-app/static/js/main.c1009a5b.js.map",
+    "453.fd58a4bb.chunk.js.map": "/my-app/static/js/453.fd58a4bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221e113.css",
+    "static/js/main.c1009a5b.js"
+  ]
+}
