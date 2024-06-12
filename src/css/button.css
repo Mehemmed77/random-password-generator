@@ -1,0 +1,29 @@
+.btn{
+    display: block;
+    width: 100%;
+    border: none;
+    padding-block:26px;
+    background-color: var(--neon-green-color);
+    font-family: "CustomFontBold";
+    cursor: pointer;
+    transition: 400ms all ease-in-out;
+    border:1px solid var(--neon-green-color);
+}
+    
+.btn svg path{
+    transition: 400ms all ease-in-out;
+}
+
+.btn:hover{
+    color: var(--neon-green-color);
+    background-color: transparent;
+}
+    
+.btn:hover svg path{
+    fill: var(--neon-green-color);
+}
+
+#arrowRight{
+    margin-left:10px;
+    padding-top:1px;
+}

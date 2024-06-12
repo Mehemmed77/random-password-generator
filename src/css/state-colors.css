@@ -1,0 +1,19 @@
+.TOO-WEAK:nth-child(1){
+    border:2px solid var(--state-too-weak-color);
+    background-color: var(--state-too-weak-color);
+}
+    
+.WEAK:nth-child(1), .WEAK:nth-child(2){
+    border:2px solid var(--state-weak-color);
+    background-color: var(--state-weak-color);
+}
+
+.MEDIUM:not(:nth-child(4)){
+    border:2px solid var(--state-medium-color);
+    background-color: var(--state-medium-color);
+}
+
+.STRONG{
+    border:2px solid var(--neon-green-color);
+    background-color: var(--neon-green-color);
+}

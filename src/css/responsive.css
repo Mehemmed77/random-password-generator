@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+    #password{
+        font-size:20px;
+    }
+    
+    label{
+        font-size:16px;
+    }
+    
+    [type="checkbox"] + label::before{
+        width: 17px;
+        height: 17px;
+    }
+    
+    [type="checkbox"]:checked + label::before{
+        width: 17px;    height:17px;
+    }
+    
+    #state{
+        font-size: 18px;
+    }
+    
+    .statesContainer{
+        font-size:16px;
+        padding: 20px 10px;
+    }
+    
+    .statesContainer > div{
+        gap:4px;
+    }
+}

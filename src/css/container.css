@@ -1,0 +1,118 @@
+.mainContainer{
+    width:90%;
+    max-width: 540px;
+    color: var(--text-color)
+}
+    
+.titleContainer{
+    text-align: center;
+    color: var(--title-color);
+    font-size: 24px;
+    font-family: "CustomFont";
+}
+
+.passwordContainer{
+    font-family: "CustomFontBold";
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+    font-size: 28px;
+    margin-top: 15px;
+    background-color: var(--main-component-bg-color);
+    }
+    
+.copySvgContainer{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+    
+#copyButton{
+    cursor: pointer;
+}
+    
+.copied{
+    color: var(--neon-green-color);
+    font-size: 18px
+}
+    
+.mainComponent{
+    margin-block-start: 10px;
+    padding:25px;
+    background-color: var(--main-component-bg-color);
+    accent-color: var(--neon-green-color);
+}
+    
+.innerContainer > div + div{
+    margin-top: 20px;
+}
+
+.lengthInputContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "CustomFontBold";
+}
+    
+.lengthInputContainer > p{
+    font-size: 18px;
+}
+    
+#length{
+    font-size: 32px;
+    color: var(--neon-green-color)
+}
+    
+.rangeContainer > input{
+    width: 100%;
+}
+    
+.checkboxContainer > div + div{
+    margin-top:7px;
+}
+    
+.checkboxContainer > div{
+    display: flex;
+    gap:10px;
+    font-size: 20px;
+    font-family: 'CustomFontBold';
+    align-items: center;
+    position: relative;
+}
+    
+.statesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    font-size:18px;
+    background-color: var(--main-bg-color);
+    font-family: 'CustomFont';
+}
+    
+.statesContainer > p{
+    color: var(--title-color);
+}
+    
+.statesContainer > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    
+#state{
+    font-size: 24px;
+}
+    
+#stateBlocksContainer{
+    display: flex;
+    gap: 5px;
+    color: var(--text-color);
+}
+    
+.stateBlocks{
+    height: 28px;
+    width: 10px;
+    border:2px solid var(--text-color);
+    transition: 400ms all ease-in-out;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'CustomFontBold';
+    src: url('../../public/assets/fonts/JetBrainsMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFontBoldItalic';
+    src: url('../../public/assets/fonts/JetBrainsMono-BoldItalic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'CustomFontItalic';
+    src: url('../../public/assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../public/assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format("truetype");
+}
